@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Toothfairy Dental Clinic — Gotham City</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="description" content="Toothfairy Dental Clinic in Gotham City — gentle, expert dental care for the whole family.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="../assets/logo.svg" alt="Toothfairy Dental Clinic logo" class="logo">
+        <div class="brand-text">
+          <h1>Toothfairy Dental Clinic</h1>
+          <p class="tagline">Gotham City — Gentle, Expert Care</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="careers.html">Careers</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#book" class="btn">Book Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Bright smiles start here</h2>
+          <p>At Toothfairy Dental Clinic, we combine modern dentistry with a gentle touch. Whether you need a routine checkup or a smile makeover, our friendly team in Gotham City is here to help.</p>
+          <p><a href="#book" class="btn btn-primary">Book an appointment</a> <a href="#services" class="btn btn-secondary">Our services</a></p>
+        </div>
+        <div class="hero-media">
+          <img src="../assets/dentist-placeholder.jpg" alt="Dentist caring for a patient" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h3>About Toothfairy</h3>
+      <p>Located in the heart of Gotham City, Toothfairy Dental Clinic has been a beacon of exceptional dental care for over 20 years. Our mission is to provide top-notch dental care while ensuring the comfort and satisfaction of every patient. Our team is led by our expert dentists, Dr. Ada Pearl, a Pediatric Specialist, and Dr. Thomas Elliot, a Cosmetic Dentistry Expert. Together, they are dedicated to providing you with the best dental experience.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>Contact & Location</h3>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Address:</strong> 100 Crystal Plaza, Gotham City</p>
+          <p><strong>Phone:</strong> (555) 010-TOOTH</p>
+          <p><strong>Email:</strong> hello@toothfairydental.example</p>
+        </div>
+        <div>
+          <h4>Opening Hours</h4>
+          <ul>
+            <li>Mon–Fri: 8:00 AM – 6:00 PM</li>
+            <li>Sat: 9:00 AM – 2:00 PM</li>
+            <li>Sun: Closed</li>
+          </ul>
+        </div>
+      </div>
+      <p class="small">For emergencies after hours, call the above number and follow the prompts.</p>
+    </section>
+
+    <section id="book" class="booking container">
+      <h3>Book an Appointment</h3>
+      <p>Use our simple booking form to request a visit. We’ll get back to you to confirm availability.</p>
+      <form class="booking-form" action="#" method="post" onsubmit="alert('This is a demo booking form. No data will be submitted.'); return false;">
+        <label for="name">Full name</label>
+        <input id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="date">Preferred date</label>
+        <input id="date" name="date" type="date">
+
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="3"></textarea>
+
+        <p><button class="btn btn-primary" type="submit">Request appointment</button></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Toothfairy Dental Clinic — Gotham City</p>
+      <p class="credits">Designed with care • Placeholder content</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

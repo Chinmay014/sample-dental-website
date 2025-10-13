@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="titleDesc2">
+  <title id="titleDesc2">Female dentist attending to a masked patient in a dental chair</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f6fbfd"/>
+      <stop offset="100%" stop-color="#eaf7fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <!-- dental chair -->
+  <g transform="translate(100,120)">
+    <rect x="120" y="140" width="420" height="120" rx="20" fill="#3b82a3" opacity="0.12"/>
+    <rect x="80" y="60" width="520" height="220" rx="24" fill="#ffffff" stroke="#e6eef3"/>
+    <!-- patient (masked vigilante) -->
+    <g transform="translate(200,80)">
+      <circle cx="60" cy="40" r="36" fill="#ffdfd8"/>
+      <rect x="28" y="26" width="64" height="28" rx="14" fill="#111827"/> <!-- mask -->
+      <!-- body -->
+      <rect x="18" y="66" width="84" height="80" rx="18" fill="#4c9fbd"/>
+    </g>
+    <!-- dentist -->
+    <g transform="translate(360,40)">
+      <circle cx="40" cy="30" r="28" fill="#ffe6cc"/>
+      <path d="M18 60 q22 18 44 0" fill="#e0f2f7" stroke="#cde8ef"/>
+      <rect x="6" y="70" width="68" height="90" rx="12" fill="#1f7a9d"/>
+      <!-- hair -->
+      <path d="M14 18 q26 -26 52 0 v12 q-26 26 -52 0z" fill="#3a2b2b"/>
+      <!-- hand with mirror / tool -->
+      <rect x="70" y="108" width="14" height="6" rx="3" transform="rotate(-20 77 111)" fill="#cbeff7"/>
+    </g>
+    <!-- overhead lamp -->
+    <g transform="translate(40,10)">
+      <rect x="260" y="-30" width="8" height="60" rx="4" fill="#94d0e8"/>
+      <ellipse cx="260" cy="6" rx="58" ry="24" fill="#fff" stroke="#e6eef3"/>
+    </g>
+    <!-- small teeth icons on right for visual interest -->
+    <g transform="translate(560,40)">
+      <use href="#tooth" x="0" y="0"/>
+    </g>
+  </g>
+  <!-- tooth symbol definition for reuse -->
+  <defs>
+    <g id="tooth">
+      <path d="M10 5 C6 5 2 9 2 14 C2 26 10 29 12 33 C14 29 22 26 22 14 C22 9 18 5 14 5 Z" fill="#fff" stroke="#cfeff7"/>
+    </g>
+  </defs>
+</svg>
